@@ -1,0 +1,241 @@
+body{margin:0; padding:0;background-image: url(../img/modulo.png);
+}
+html{ scroll-behavior: smooth;}
+#contenedorbig{
+	margin-top:0;
+	margin-left: auto;
+	margin-right:auto;
+    
+  }
+
+  @keyframes aparecer{
+
+  	0%{opacity: 0;}
+  	100%{opacity: 1;}
+  }
+  @keyframes escalar{
+
+  	0%{opacity: 0;
+  	   transform: scale(-1,-1);}
+  	100%{opacity: 1;
+  	transform: scale(1,1);}
+  }
+
+h2{color:white;
+        font-size:30px;
+        text-align:center;
+    margin-left: auto;
+margin-right: auto;
+font-family: 'Righteous';}
+
+#navegador #logo{
+	float: left;
+	padding: 15px;
+	text-decoration: none;
+
+
+}
+#navegador #logo:hover {
+		color:#ff0000;
+	}
+	
+
+	
+	
+#navegador{background: #000000;
+	color: white;
+	height: 80px;
+    width: 100%; 
+	left: 0; 
+	top: 0; 
+	position: sticky;
+	z-index: 400;
+	
+	}
+	
+#navegador a {
+		color: white;
+
+	}
+#navegador #logo {
+		color: white;
+		text-decoration: none;
+		font-family: 'Permanent Marker';
+		font-size:30px;
+		display: inline-block;
+			line-height: 80px;
+			margin-left: 50px;
+		}
+
+nav {
+	float: right;
+	font-family: 'Righteous';
+	
+}
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+	}
+	
+		nav ul li {
+			display: inline-block;
+			line-height: 80px;
+		}
+			
+			nav ul li a {
+				display: block;
+				padding: 0 10px;
+				text-decoration: none;
+				transition-duration: 1s;
+
+			}
+			
+				nav ul li a:hover {
+					background: #ff0000;
+				}
+#index{width: 100%;
+
+
+
+}
+
+#title{margin-left: auto;
+		margin-right: auto;
+		margin-top: 400px;
+		position:absolute;
+		z-index: 12;
+		width: 100%
+	   }
+#title h1{font-family: 'Permanent Marker', cursive;
+			font-size:50px;
+			color:white;
+			text-align: center;
+			text-shadow: 5px 3px red;
+		 opacity:0;
+	    animation-name: aparecer;
+	    animation-duration: 1s;
+	    animation-delay: 5s;
+	    animation-fill-mode: forwards;}
+#main_img{	width: 100%;
+			position: absolute;
+			z-index: 10;
+		margin-left: auto;
+	margin-right: auto;
+opacity:0;
+animation-name: escalar;
+animation-duration: 2s;
+animation-delay: 4s;
+animation-fill-mode: forwards;}
+
+#main_img img{height:600px;
+	width: 100%;
+object-fit: scale-down;
+
+
+}
+
+#back_img{width: 100%;
+		border-radius:50px;
+		}
+
+.gif_cont{	width: 20%;
+	     
+			float:left;
+			opacity: 0;
+			animation-name: aparecer;
+			animation-duration: 2s;
+			animation-fill-mode: forwards;}
+.gif_cont img {object-fit: cover;
+
+  width: 300px;
+  height:300px;
+ 				}
+.corta_flow{clear: both;}
+
+.header_titulo{width: 100%;
+background-color: black;
+height: 60px;
+
+}
+
+.header_titulo h2{padding:7px;}
+
+#estilo_txt{width: 30%;
+display: inline-block; float: left; margin-top:100px;margin-left: 120px;}
+#estilo_txt p{font-family: 'Roboto', sans-serif;
+         color:white;
+         font-size: 17px;
+         }
+
+#estil{float: right;margin-top: 50px;margin-right: 20%;width: 400px; border-radius: 25px;
+transition-duration: 1s; transition-property: border, transform;}
+
+#estil:hover{border:6px solid red;
+			}
+
+
+#filmografia #pelis{ width: 30%;
+display: inline-block; float: right; margin-top:50px;margin-right: 120px;}
+#pelis p{font-family: 'Roboto', sans-serif;
+         color:white;
+         font-size: 17px;
+         text-align: center;}
+#car{float: left;width:50%; margin: 20px;border-radius: 20px;
+transition-duration: 1s;transition-property:border;}
+#car:hover{border:6px solid red;}
+
+#texto_bio{float: right;
+width: 30%;
+margin:100px;}
+#texto_bio p{font-family: 'Roboto', sans-serif;
+         color:white;
+         font-size: 16px;}
+
+footer{width:100%; height:50px;background-color: red; margin-top: 50px; text-align: center; padding-top:20px;}
+span{font-family: 'Roboto', sans-serif;
+         color:black;
+         font-size: 14px;
+         text-align: center;}
+.main {
+      float: left;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+.clear {
+      width: auto;
+    }
+
+   .gallery {
+   	float: left;
+      width: 500px;
+      height: 333px;
+      margin-right: 20px;
+      margin-left: 200px;
+      margin-top: 100px;
+      margin-bottom: 150px;
+      display: inline-block;
+    }
+
+     .fg-card, .fg-card > img {
+      border-radius: 3px;
+    }
+    .fg-caption {
+      color: white;
+      font-style: italic;
+      font-family:noto serif;
+      font-size: 24px;
+    }
+
+#a{animation-delay:0s; }
+#b{animation-delay:2s; }
+#c{animation-delay:4.5s; }
+#d{animation-delay:0.5s; }
+#e{animation-delay:4s; }
+#f{animation-delay:3.5s; }
+#g{animation-delay:2.5s; }
+#h{animation-delay:1s; }
+#i{animation-delay:1.5s; }
+#j{animation-delay:3s; }
